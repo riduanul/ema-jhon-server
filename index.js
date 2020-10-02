@@ -64,4 +64,4 @@ app.get('/', (req, res) =>{
     res.send('welcome to emajhon sarver')
 });
 
-app.listen(port)
+app.listen(process.env.PORT || port)
